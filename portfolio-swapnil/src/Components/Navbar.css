@@ -1,12 +1,12 @@
 .navbar-container{
-    background-color:#002171;
+    background-color:#000000;
     padding: 5px;
     text-align: right;
     height: 40px;
 }
 .links{
     float: right;
-    /* margin-top: 6px; */
+    margin-top: 4px;
     margin-right: 50px;
 }
 
@@ -20,6 +20,6 @@
     letter-spacing: 1.5px;
 }
 .link:hover{
-    color: rgb(186, 186, 186);
-    border-bottom: 3px solid rgb(204, 204, 204);
+    color: rgb(25,118,210);
+    border-bottom: 3px solid rgb(25,118,210);
 }
