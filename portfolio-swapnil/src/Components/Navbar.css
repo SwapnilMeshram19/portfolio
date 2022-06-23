@@ -10,7 +10,7 @@
     margin-right: 50px;
 }
 
-.links>.link{
+.links>.nav-link{
     padding: 7px;
     margin: 9px;
     color: white;    
@@ -19,7 +19,7 @@
     font-size: 17px;
     letter-spacing: 1.5px;
 }
-.link:hover{
+.nav-link:hover{
     color: rgb(25,118,210);
     border-bottom: 3px solid rgb(25,118,210);
 }

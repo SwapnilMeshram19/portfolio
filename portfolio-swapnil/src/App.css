@@ -7,6 +7,7 @@
 
 .home-container{
   background-color: rgb(18,17,19);
+  padding: 100px 0px;
 }
 .profile-photo{
   vertical-align: middle;
@@ -21,6 +22,7 @@
   vertical-align: top;
   display: inline-block;
   margin-top: 90px;
+  margin-left: 30px;
   text-align: left;
 }
 .intro-text>h5{
@@ -33,10 +35,150 @@
 .intro-text>h1{
   margin: 0px;
   font-size: 45px;
+  font-weight: 900;
+  letter-spacing: 2px;
 }
 
 .intro-text>h4{
   margin: 0px;
   font-size: 22px;
   color:rgb(241, 238, 238);
+  letter-spacing: 1px;
+}
+
+.resume-button{
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 20px 0px;
+  border-radius: 5px;
+  border: 2px solid white;
+  cursor: pointer;
+  background-color: rgb(255,173,0);
+
+}
+
+.profile-icon{
+  cursor: pointer;
+  margin: 0px 7px;
+}
+
+
+
+/* About Container */
+
+
+.about-container{
+  background-color: rgb(18,17,19);
+  padding: 100px 0px;
+}
+
+.about-container>h1{
+  font-family: 'League Spartan', sans-serif;
+  font-size: 40px;
+  width:7%;
+  margin: auto;
+  color: rgb(25,118,210);
+  letter-spacing: 2px;
+  border-bottom: 4px solid rgb(25,118,210);
+  font-weight: 900;
+}
+
+.about-container>h4{
+  margin: 0px;
+  margin-top: 20px;
+  font-size: 25px;
+  color: white;
+  letter-spacing:1px ;
+  margin-bottom: 10px;
+}
+
+.about-container>p{
+  margin: auto;
+  font-size: 20px;
+  width: 45%;
+  line-height: 22px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  color: white;
+
+}
+
+.about-container>h5{
+  margin: 0px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.about-container>h5>a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.about-container>h5>a:hover{
+  color:rgb(255,173,0) ;
+}
+
+
+/* SKILLS CONTAINER */
+
+.skills-container{
+  background-color: rgb(18,17,19);
+  padding: 100px 0px;
+  height: 500px;
+}
+
+.skills-container>h1{
+  font-family: 'League Spartan', sans-serif;
+  font-size: 40px;
+  width:7%;
+  margin: auto;
+  color: rgb(25,118,210);
+  letter-spacing: 2px;
+  border-bottom: 4px solid rgb(25,118,210);
+  font-weight: 900;
+}
+
+.skills{
+  width:70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+  gap: 60px;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  
+
+}
+.skills>div{
+  width:50%;
+  background-color: rgb(255, 255, 255);
+  padding:10px 20px;
+  border-radius: 15px;
+  align-items: center;
+  justify-items: center;
+ 
+  box-shadow:  2px 2px 5px #afafaf, 
+             -2px -2px 5px #bcbcbc;
+
+             
+}
+
+.skills>div:hover{
+  margin-top: -3px;
+  
+}
+
+.skills>div>img{
+  width:90%
+}
+
+.skills>div>h5{
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 500;
+  
 }
