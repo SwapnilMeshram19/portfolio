@@ -1,21 +1,30 @@
 import React from "react";
-import './Navbar.css';
-import {NavLink} from "react-router-dom";
-import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
+import "./Navbar.css";
+import { Link } from "react-scroll";
+import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 
-const Navbar =()=>{
-    return (
+const Navbar = () => {
+  return (
     <div className="navbar-container">
-        <div className="links">
-            <NavLink className="nav-link" to="/" >Home</NavLink>
-            <NavLink className="nav-link" to="/About">About</NavLink>
-            <NavLink className="nav-link" to="/Skills">Skills</NavLink>
-            <NavLink className="nav-link" to="/Projects">Projects</NavLink>
-            <NavLink className="nav-link" to="/Contact">Contact</NavLink>
-        </div>
-        
+      <div className="links">
+        <Link className="nav-link" to="home" spy={true} smooth={true}>
+          Home
+        </Link>
+        <Link className="nav-link" to="about" spy={true} smooth={true}>
+          About
+        </Link>
+        <Link className="nav-link" to="skills" spy={true} smooth={true}>
+          Skills
+        </Link>
+        <Link className="nav-link" to="projects" spy={true} smooth={true}>
+          Projects
+        </Link>
+        <Link className="nav-link" to="contact" spy={true} smooth={true}>
+          Contact
+        </Link>
+      </div>
     </div>
-    )
-}
+  );
+};
 
 export default Navbar;

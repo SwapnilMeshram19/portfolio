@@ -1,7 +1,7 @@
 import React from "react";
 const About =()=>{
     return (
-    <div className="about-container">
+    <div id="about">
         <h1>About</h1>
         <h4>I'M <span style={{color:"rgb(236,168,6)"}}>Swapnil Meshram</span></h4>
         <p>An aspiring full stack web developer. Looking to obtain the
