@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
-import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
+
 
 const Navbar = () => {
   return (

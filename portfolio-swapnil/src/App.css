@@ -218,8 +218,40 @@
   letter-spacing: 2px;
   border-bottom: 4px solid rgb(25, 118, 210);
   font-weight: 900;
+  margin-bottom: 30px;
 }
 
-.contacts{
-  text-align: center;
+.icons-container,
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.icons-container > .icon {
+  color: rgb(255, 173, 0);
+}
+
+.icons-container > .icon:hover {
+  color: aqua;
+}
+.icons-container > .icon-text {
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.icon-container > a > .icon {
+  font-size: 30px;
+  color: rgb(255, 173, 0);
+}
+.icon-container > a > .icon:hover {
+  color: aqua;
+}
+
+.icon-container > a {
+  text-decoration: none;
+  margin-top: 20px;
 }
