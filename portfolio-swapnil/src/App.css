@@ -221,6 +221,22 @@
   margin-bottom: 30px;
 }
 
+.contact-info{
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+.contact-info>.information{
+  display: inline-block;
+  width:40%;
+  vertical-align: middle;
+}
+.contact-info>.send-message{
+  display: inline-block;
+  width:50%;
+  vertical-align: middle;
+}
+
 .icons-container,
 .icon-container {
   display: flex;
@@ -254,4 +270,33 @@
 .icon-container > a {
   text-decoration: none;
   margin-top: 20px;
+}
+/* .vr{
+  width:2px;
+  background-color: white;
+  height:350px;
+  display: inline-block;
+  vertical-align: top;
+} */
+
+.text-field{
+  width: 80%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  font-weight: 500;
+  margin: 10px;
+}
+.text-field:focus{
+  border: none;
+}
+
+.send-button{
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 20px 0px;
+  border-radius: 5px;
+  border: 2px solid white;
+  cursor: pointer;
+  background-color: rgb(255, 173, 0);
 }
