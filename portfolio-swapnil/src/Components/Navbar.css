@@ -5,6 +5,7 @@
     height: 40px;
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 .links{
     float: right;
@@ -26,11 +27,11 @@
     color: rgb(25,118,210);
     border-bottom: 3px solid rgb(25,118,210);
 }
-.nav-link:active{
+/* .nav-link:active{
     color: rgb(25,118,210);
     border-bottom: 3px solid rgb(25,118,210);
 
-}
+} */
 .nav-link.active{
     color: rgb(25,118,210);
     border-bottom: 3px solid rgb(25,118,210);

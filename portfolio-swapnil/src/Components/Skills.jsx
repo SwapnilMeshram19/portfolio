@@ -19,36 +19,36 @@ const Skills = () => {
         </div>
         <div>
           <img src={cssLogo} />
-          <h5>HTML</h5>
+          <h5>CSS</h5>
         </div>
         <div>
           <img src={jsLogo} />
-          <h5>HTML</h5>
+          <h5>JavaScript</h5>
         </div>
         <div>
           <img src={reactLogo} />
-          <h5>HTML</h5>
+          <h5>React.js</h5>
         </div>
         <div>
           <img src={reduxLogo} />
-          <h5>HTML</h5>
+          <h5>Redux.js</h5>
         </div>
 
         <div>
           <img src={nodejsLogo} />
-          <h5>HTML</h5>
+          <h5>Node.js</h5>
         </div>
         <div>
           <img src={expressjsLogo} />
-          <h5>HTML</h5>
+          <h5>Express.js</h5>
         </div>
         <div>
           <img src={mysqlLogo} />
-          <h5>HTML</h5>
+          <h5>MySql</h5>
         </div>
         <div>
           <img src={javaLogo} />
-          <h5>HTML</h5>
+          <h5>Java</h5>
         </div>
       </div>
     </div>
